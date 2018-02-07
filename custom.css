@@ -79,15 +79,19 @@ a:hover {
     font-weight: 900;
 }
 
-.genesys-header .pureconnect-logo-svg {
+.genesys-header .product-logo-svg {
     max-width:160px;
     margin: 0 auto;
     display: block;
 }
 
-.genesys-header .pureconnect-logo-path {
+.genesys-header .product-logo-path {
     fill: none;
     stroke: #FF4F1F;
     stroke-miterlimit: 10;
     stroke-width: 3.5px;
+}
+
+.submit-only .genesys-header {
+    text-align: left;
 }
