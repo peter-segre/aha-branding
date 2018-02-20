@@ -35,3 +35,6 @@ There are four email templates for each of the emails Aha sends out. They are Ne
 When copying the template to each portal, make sure the reference number hyperlink points to the appropriate portal.
 
 Email template.css holds the email stylesheet and can be used for all email templates. It should be copied into the Custom Email Css field on the product portal.
+
+## Images
+All images used in branding can be found in the Aha Branding Resources workflow. This workflow is just a placeholder that allows us to attach as many images or other resources we need for branding. These resources can then be linked from the branding templates.
