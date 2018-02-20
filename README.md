@@ -4,7 +4,8 @@ This holds the branding styles for the Genesys Aha ideas portal. This helps us m
 
 All three products have their own portals and this code has be structured to ensure consistency and minimize duplication.
 
-## Instructions
+## Portal Branding
+### Instructions
 We should not be editing the styles directly on the Aha site. All changes should be made here first and then copied to the idea portals.
 
 To update the portal branding.
@@ -16,7 +17,7 @@ To update the portal branding.
 6. Click save.
 7. Repeate steps 1-6 for remaining portals.
 
-## Components
+### Components
 *Custom.html*
 This is the html template for the header and should be identical for all product portals except for the logo and title. Simply change the css class of each (ex. pureconnect-logo and pureconnect-title) for each portal to pull in the appropriate content.
 
@@ -25,3 +26,12 @@ This is the css class that will be included in the header and affects the styles
 
 *custom.js*
 This is the code that actually puts the individual logo and title into the header. It uses jquery to find the title and logo selector and appends the appropriate html.
+
+## Email Branding
+Aha does not give us total control of the email so we have to be quite creative to customize the format the way we want, and there are lots of limitations to what we can do. When editing the email templates make sure to test at a minimum in outlook and attempt to forward to another email address.
+
+There are four email templates for each of the emails Aha sends out. They are New Idea, Status Changed, Admin Response, and New Comment. These templates will need to be copied into the Aha site for each of the product portals.
+
+When copying the template to each portal, make sure the reference number hyperlink points to the appropriate portal.
+
+Email template.css holds the email stylesheet and can be used for all email templates. It should be copied into the Custom Email Css field on the product portal.
