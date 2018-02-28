@@ -43,9 +43,12 @@ a:hover {
 /************************************************/
 /*   GENESYS HEADER STYLES                      */
 /************************************************/
-
+.genesys-header {
+     background-color: #5D3E5D;
+     padding: 20px 0px 0px 0px;
+}
 .genesys-header h1 {
-    color: #4E5054; /*Genesys Charcoal Gray*/
+    color: #FFFFFF; /*Genesys White*/
 }
 
 .genesys-header .title {
@@ -56,12 +59,13 @@ a:hover {
    
 .genesys-header .title h4{
     text-transform: none;
-    color: #4E5054; /*Genesys Charcoal Gray*/
+    color: #FFFFFF; /*Genesys White*/
     font-weight: normal;
 }
 
-.genesys-header .logo {
+.genesys-header.header .logo {
     line-height: 1;
+    margin-bottom: 0px;
 }
 
 .genesys-header .title p {
@@ -79,17 +83,16 @@ a:hover {
     font-weight: 900;
 }
 
-.genesys-header .product-logo-svg {
-    max-width:160px;
-    margin: 0 auto;
-    display: block;
+.genesys-header .pureconnect-logo {
+    max-width: 160px;
 }
 
-.genesys-header .product-logo-path {
-    fill: none;
-    stroke: #FF4F1F;
-    stroke-miterlimit: 10;
-    stroke-width: 3.5px;
+.genesys-header .purecloud-logo {
+    max-height: 165px;
+}
+
+.genesys-header .pureengage-logo {
+    max-height: 150px;
 }
 
 .submit-only .genesys-header {
