@@ -21,3 +21,7 @@ $('.purecloud-title').append('PureCloud Ideas');
 var purecloudLogoHtml = '<img class="purecloud-logo" src="https://genesys.aha.io/attachments/6527313548979542257/token/475cae406c1beddffe4953558e33aead8ab62edb7678066ff390384e1e5b5266" alt="PureCloud Logo">'
 
 $('.purecloud-logo').append(purecloudLogoHtml);
+
+/* Genesys */
+
+$('.genesys-title').append('Genesys Ideas');
